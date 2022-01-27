@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main>
+      <div class="header-img">
+        <img
+          src="/ping-coming-soon-page-master/images/logo.svg"
+          alt=""
+          srcset=""
+        />
+      </div>
+
+      <div class="heading">
+        <h3>We are launching <span class="word">soon!</span> </h3>
+        <p>Subscribe and get notified</p>
+      </div>
+
+      <form name="form" action="#">
+        <input
+          type="email"
+          placeholder="Your email address"
+          name="email"
+          id="mail"
+        />
+        <input type="submit" onclick="validation(document.form.email)" value="Notify Me" />
+      </form>
+
+      <div class="main-img">
+        <img
+          src="/ping-coming-soon-page-master/images/illustration-dashboard.png"
+          width="700"
+          height="400"
+          alt=""
+          srcset=""
+        />
+      </div>
+
+      <div class="footer-img">
+        <img
+          src="/ping-coming-soon-page-master/images/facebook-f-brands.svg"
+          width="10"
+          height="20"
+          alt=""
+          srcset=""
+        />
+        <img
+          src="/ping-coming-soon-page-master/images/twitter-brands.svg"
+          width="15"
+          height="20"
+          alt=""
+          srcset=""
+        />
+        <img
+          src="/ping-coming-soon-page-master/images/instagram-brands.svg"
+          width="15"
+          height="20"
+          alt=""
+          srcset=""
+        />
+      </div>
+
+      <footer>&copy; Copy right Ping. All rights reserved.<footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
